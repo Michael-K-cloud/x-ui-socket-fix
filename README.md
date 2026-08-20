@@ -54,15 +54,15 @@ bash <(wget -qO- https://raw.githubusercontent.com/Michael-K-cloud/x-ui-socket-f
 
 ## 🔍 Проверка установки
 После установки проверьте:
-# Проверить systemd override
+## Проверить systemd override
 ```
 cat /etc/systemd/system/x-ui.service.d/override.conf
 ```
-# Проверить cron-задачу
+## Проверить cron-задачу
 ```
 crontab -l
 ```
-# Проверить статус x-ui
+## Проверить статус x-ui
 ```
 systemctl status x-ui
 ```

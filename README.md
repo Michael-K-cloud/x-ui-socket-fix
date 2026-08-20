@@ -27,12 +27,15 @@ bash <(wget -qO- https://raw.githubusercontent.com/Michael-K-cloud/x-ui-socket-f
 
 Шаг 1. Проверка прав root
 Скрипт не запустится без прав root.
+
 Шаг 2. Проверка наличия x-ui
 Скрипт проверяет, установлена ли панель 3X-UI.
+
 Шаг 3. Создание systemd override
 Создаёт файл /etc/systemd/system/x-ui.service.d/override.conf:
 
 Шаг 4. Добавление cron-задачи
+
 Добавляет в crontab задачу, которая каждые 5 минут:
 Находит все файлы uds*.sock в /dev/shm
 Проверяет, используется ли сокет каким-либо процессом

@@ -23,7 +23,7 @@ ERROR - XRAY: Failed to start: ... failed to listen Unix Domain Socket on /dev/s
 bash <(wget -qO- https://raw.githubusercontent.com/Michael-K-cloud/x-ui-socket-fix/main/install-socket-fix.sh)
 ```
 
-##📋 Что делает скрипт
+## 📋 Что делает скрипт
 
 Шаг 1. Проверка прав root
 Скрипт не запустится без прав root.

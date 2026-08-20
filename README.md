@@ -24,6 +24,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/Michael-K-cloud/x-ui-socket-f
 ```
 
 📋 Что делает скрипт
+
 Шаг 1. Проверка прав root
 Скрипт не запустится без прав root.
 Шаг 2. Проверка наличия x-ui

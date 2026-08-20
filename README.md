@@ -52,8 +52,10 @@ bash <(wget -qO- https://raw.githubusercontent.com/Michael-K-cloud/x-ui-socket-f
 - Сокеты в `/dev/shm`
 - Ошибки за последний час
 
-## 🔍 Проверка установки
-После установки проверьте:
+## 🔍 Дополнительная проверка (опционально)
+
+Скрипт автоматически показывает все проверки после установки. Если хотите проверить позже вручную:
+
 ### Проверить systemd override
 ```
 cat /etc/systemd/system/x-ui.service.d/override.conf
